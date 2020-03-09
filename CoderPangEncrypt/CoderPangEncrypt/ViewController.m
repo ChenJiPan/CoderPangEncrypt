@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "NSString+Encipher.h"
+#import "NSString+AES256.h"
+#import "NSString+AES128.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +18,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSString *pppppp = [NSString aes128Encrypt:@"你好，中国！" key:@"zzzzzzzzzzzzzzzz"];
+    
+    NSString *qqqqqq = [NSString aes128Decrypt:pppppp key:@"zzzzzzzzzzzzzzzz"];
+    
+    NSLog(@"pppppp========%@=============%@",pppppp,qqqqqq);
+    
+    NSString *zzzzz = [NSString aes256Encrypt:@"你好，中国！" key:@"pppppppppppppppppppppppppppppppp"];
+    
+    NSString *hhhhhh = [NSString aes256Decrypt:zzzzz key:@"pppppppppppppppppppppppppppppppp"];
+    
+    NSLog(@"zzzzzz========%@===============%@",zzzzz,hhhhhh);
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
