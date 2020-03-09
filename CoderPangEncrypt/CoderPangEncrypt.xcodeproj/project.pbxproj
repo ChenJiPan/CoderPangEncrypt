@@ -16,6 +16,9 @@
 		92200991241651D100FC4307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92200990241651D100FC4307 /* main.m */; };
 		9220099B241651D100FC4307 /* CoderPangEncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9220099A241651D100FC4307 /* CoderPangEncryptTests.m */; };
 		922009A6241651D200FC4307 /* CoderPangEncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922009A5241651D200FC4307 /* CoderPangEncryptUITests.m */; };
+		922009B72416530800FC4307 /* NSString+Encipher.m in Sources */ = {isa = PBXBuildFile; fileRef = 922009B62416530800FC4307 /* NSString+Encipher.m */; };
+		922009BA2416535D00FC4307 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 922009B92416535D00FC4307 /* NSString+AES256.m */; };
+		922009BD241653D400FC4307 /* NSString+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = 922009BC241653D400FC4307 /* NSString+AES128.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		922009A1241651D200FC4307 /* CoderPangEncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoderPangEncryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922009A5241651D200FC4307 /* CoderPangEncryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoderPangEncryptUITests.m; sourceTree = "<group>"; };
 		922009A7241651D200FC4307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922009B52416530800FC4307 /* NSString+Encipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Encipher.h"; sourceTree = "<group>"; };
+		922009B62416530800FC4307 /* NSString+Encipher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encipher.m"; sourceTree = "<group>"; };
+		922009B82416535D00FC4307 /* NSString+AES256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		922009B92416535D00FC4307 /* NSString+AES256.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		922009BB241653D400FC4307 /* NSString+AES128.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES128.h"; sourceTree = "<group>"; };
+		922009BC241653D400FC4307 /* NSString+AES128.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES128.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 		9220097D241651BA00FC4307 /* CoderPangEncrypt */ = {
 			isa = PBXGroup;
 			children = (
+				922009B3241652C600FC4307 /* Category */,
 				9220097E241651BA00FC4307 /* AppDelegate.h */,
 				9220097F241651BA00FC4307 /* AppDelegate.m */,
 				92200981241651BA00FC4307 /* SceneDelegate.h */,
@@ -135,6 +145,28 @@
 				922009A7241651D200FC4307 /* Info.plist */,
 			);
 			path = CoderPangEncryptUITests;
+			sourceTree = "<group>";
+		};
+		922009B3241652C600FC4307 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				922009B4241652CC00FC4307 /* NSString */,
+			);
+			name = Category;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		922009B4241652CC00FC4307 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				922009B52416530800FC4307 /* NSString+Encipher.h */,
+				922009B62416530800FC4307 /* NSString+Encipher.m */,
+				922009B82416535D00FC4307 /* NSString+AES256.h */,
+				922009B92416535D00FC4307 /* NSString+AES256.m */,
+				922009BB241653D400FC4307 /* NSString+AES128.h */,
+				922009BC241653D400FC4307 /* NSString+AES128.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +302,9 @@
 				92200986241651BA00FC4307 /* ViewController.m in Sources */,
 				92200980241651BA00FC4307 /* AppDelegate.m in Sources */,
 				92200991241651D100FC4307 /* main.m in Sources */,
+				922009BA2416535D00FC4307 /* NSString+AES256.m in Sources */,
+				922009BD241653D400FC4307 /* NSString+AES128.m in Sources */,
+				922009B72416530800FC4307 /* NSString+Encipher.m in Sources */,
 				92200983241651BA00FC4307 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
