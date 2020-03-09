@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92200980241651BA00FC4307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9220097F241651BA00FC4307 /* AppDelegate.m */; };
+		92200983241651BA00FC4307 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92200982241651BA00FC4307 /* SceneDelegate.m */; };
+		92200986241651BA00FC4307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92200985241651BA00FC4307 /* ViewController.m */; };
+		92200989241651BA00FC4307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92200987241651BA00FC4307 /* Main.storyboard */; };
+		9220098B241651D100FC4307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9220098A241651D100FC4307 /* Assets.xcassets */; };
+		9220098E241651D100FC4307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9220098C241651D100FC4307 /* LaunchScreen.storyboard */; };
+		92200991241651D100FC4307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92200990241651D100FC4307 /* main.m */; };
+		9220099B241651D100FC4307 /* CoderPangEncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9220099A241651D100FC4307 /* CoderPangEncryptTests.m */; };
+		922009A6241651D200FC4307 /* CoderPangEncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922009A5241651D200FC4307 /* CoderPangEncryptUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92200997241651D100FC4307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92200973241651BA00FC4307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9220097A241651BA00FC4307;
+			remoteInfo = CoderPangEncrypt;
+		};
+		922009A2241651D200FC4307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92200973241651BA00FC4307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9220097A241651BA00FC4307;
+			remoteInfo = CoderPangEncrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9220097B241651BA00FC4307 /* CoderPangEncrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderPangEncrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9220097E241651BA00FC4307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9220097F241651BA00FC4307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92200981241651BA00FC4307 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		92200982241651BA00FC4307 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		92200984241651BA00FC4307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92200985241651BA00FC4307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92200988241651BA00FC4307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9220098A241651D100FC4307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9220098D241651D100FC4307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9220098F241651D100FC4307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92200990241651D100FC4307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92200996241651D100FC4307 /* CoderPangEncryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoderPangEncryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9220099A241651D100FC4307 /* CoderPangEncryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoderPangEncryptTests.m; sourceTree = "<group>"; };
+		9220099C241651D100FC4307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922009A1241651D200FC4307 /* CoderPangEncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoderPangEncryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922009A5241651D200FC4307 /* CoderPangEncryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoderPangEncryptUITests.m; sourceTree = "<group>"; };
+		922009A7241651D200FC4307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92200978241651BA00FC4307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92200993241651D100FC4307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220099E241651D200FC4307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92200972241651BA00FC4307 = {
+			isa = PBXGroup;
+			children = (
+				9220097D241651BA00FC4307 /* CoderPangEncrypt */,
+				92200999241651D100FC4307 /* CoderPangEncryptTests */,
+				922009A4241651D200FC4307 /* CoderPangEncryptUITests */,
+				9220097C241651BA00FC4307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9220097C241651BA00FC4307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9220097B241651BA00FC4307 /* CoderPangEncrypt.app */,
+				92200996241651D100FC4307 /* CoderPangEncryptTests.xctest */,
+				922009A1241651D200FC4307 /* CoderPangEncryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9220097D241651BA00FC4307 /* CoderPangEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				9220097E241651BA00FC4307 /* AppDelegate.h */,
+				9220097F241651BA00FC4307 /* AppDelegate.m */,
+				92200981241651BA00FC4307 /* SceneDelegate.h */,
+				92200982241651BA00FC4307 /* SceneDelegate.m */,
+				92200984241651BA00FC4307 /* ViewController.h */,
+				92200985241651BA00FC4307 /* ViewController.m */,
+				92200987241651BA00FC4307 /* Main.storyboard */,
+				9220098A241651D100FC4307 /* Assets.xcassets */,
+				9220098C241651D100FC4307 /* LaunchScreen.storyboard */,
+				9220098F241651D100FC4307 /* Info.plist */,
+				92200990241651D100FC4307 /* main.m */,
+			);
+			path = CoderPangEncrypt;
+			sourceTree = "<group>";
+		};
+		92200999241651D100FC4307 /* CoderPangEncryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				9220099A241651D100FC4307 /* CoderPangEncryptTests.m */,
+				9220099C241651D100FC4307 /* Info.plist */,
+			);
+			path = CoderPangEncryptTests;
+			sourceTree = "<group>";
+		};
+		922009A4241651D200FC4307 /* CoderPangEncryptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				922009A5241651D200FC4307 /* CoderPangEncryptUITests.m */,
+				922009A7241651D200FC4307 /* Info.plist */,
+			);
+			path = CoderPangEncryptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9220097A241651BA00FC4307 /* CoderPangEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922009AA241651D200FC4307 /* Build configuration list for PBXNativeTarget "CoderPangEncrypt" */;
+			buildPhases = (
+				92200977241651BA00FC4307 /* Sources */,
+				92200978241651BA00FC4307 /* Frameworks */,
+				92200979241651BA00FC4307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoderPangEncrypt;
+			productName = CoderPangEncrypt;
+			productReference = 9220097B241651BA00FC4307 /* CoderPangEncrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92200995241651D100FC4307 /* CoderPangEncryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922009AD241651D200FC4307 /* Build configuration list for PBXNativeTarget "CoderPangEncryptTests" */;
+			buildPhases = (
+				92200992241651D100FC4307 /* Sources */,
+				92200993241651D100FC4307 /* Frameworks */,
+				92200994241651D100FC4307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92200998241651D100FC4307 /* PBXTargetDependency */,
+			);
+			name = CoderPangEncryptTests;
+			productName = CoderPangEncryptTests;
+			productReference = 92200996241651D100FC4307 /* CoderPangEncryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		922009A0241651D200FC4307 /* CoderPangEncryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922009B0241651D200FC4307 /* Build configuration list for PBXNativeTarget "CoderPangEncryptUITests" */;
+			buildPhases = (
+				9220099D241651D200FC4307 /* Sources */,
+				9220099E241651D200FC4307 /* Frameworks */,
+				9220099F241651D200FC4307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922009A3241651D200FC4307 /* PBXTargetDependency */,
+			);
+			name = CoderPangEncryptUITests;
+			productName = CoderPangEncryptUITests;
+			productReference = 922009A1241651D200FC4307 /* CoderPangEncryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92200973241651BA00FC4307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "陈良良";
+				TargetAttributes = {
+					9220097A241651BA00FC4307 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					92200995241651D100FC4307 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9220097A241651BA00FC4307;
+					};
+					922009A0241651D200FC4307 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9220097A241651BA00FC4307;
+					};
+				};
+			};
+			buildConfigurationList = 92200976241651BA00FC4307 /* Build configuration list for PBXProject "CoderPangEncrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92200972241651BA00FC4307;
+			productRefGroup = 9220097C241651BA00FC4307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9220097A241651BA00FC4307 /* CoderPangEncrypt */,
+				92200995241651D100FC4307 /* CoderPangEncryptTests */,
+				922009A0241651D200FC4307 /* CoderPangEncryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92200979241651BA00FC4307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9220098E241651D100FC4307 /* LaunchScreen.storyboard in Resources */,
+				9220098B241651D100FC4307 /* Assets.xcassets in Resources */,
+				92200989241651BA00FC4307 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92200994241651D100FC4307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220099F241651D200FC4307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92200977241651BA00FC4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92200986241651BA00FC4307 /* ViewController.m in Sources */,
+				92200980241651BA00FC4307 /* AppDelegate.m in Sources */,
+				92200991241651D100FC4307 /* main.m in Sources */,
+				92200983241651BA00FC4307 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92200992241651D100FC4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9220099B241651D100FC4307 /* CoderPangEncryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220099D241651D200FC4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922009A6241651D200FC4307 /* CoderPangEncryptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92200998241651D100FC4307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9220097A241651BA00FC4307 /* CoderPangEncrypt */;
+			targetProxy = 92200997241651D100FC4307 /* PBXContainerItemProxy */;
+		};
+		922009A3241651D200FC4307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9220097A241651BA00FC4307 /* CoderPangEncrypt */;
+			targetProxy = 922009A2241651D200FC4307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92200987241651BA00FC4307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92200988241651BA00FC4307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9220098C241651D100FC4307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9220098D241651D100FC4307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		922009A8241651D200FC4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		922009A9241651D200FC4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		922009AB241651D200FC4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoderPangEncrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pangzai.CoderPangEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		922009AC241651D200FC4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoderPangEncrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pangzai.CoderPangEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		922009AE241651D200FC4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoderPangEncryptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pangzai.CoderPangEncryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoderPangEncrypt.app/CoderPangEncrypt";
+			};
+			name = Debug;
+		};
+		922009AF241651D200FC4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoderPangEncryptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pangzai.CoderPangEncryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoderPangEncrypt.app/CoderPangEncrypt";
+			};
+			name = Release;
+		};
+		922009B1241651D200FC4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoderPangEncryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pangzai.CoderPangEncryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoderPangEncrypt;
+			};
+			name = Debug;
+		};
+		922009B2241651D200FC4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoderPangEncryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pangzai.CoderPangEncryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoderPangEncrypt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92200976241651BA00FC4307 /* Build configuration list for PBXProject "CoderPangEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922009A8241651D200FC4307 /* Debug */,
+				922009A9241651D200FC4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922009AA241651D200FC4307 /* Build configuration list for PBXNativeTarget "CoderPangEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922009AB241651D200FC4307 /* Debug */,
+				922009AC241651D200FC4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922009AD241651D200FC4307 /* Build configuration list for PBXNativeTarget "CoderPangEncryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922009AE241651D200FC4307 /* Debug */,
+				922009AF241651D200FC4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922009B0241651D200FC4307 /* Build configuration list for PBXNativeTarget "CoderPangEncryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922009B1241651D200FC4307 /* Debug */,
+				922009B2241651D200FC4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92200973241651BA00FC4307 /* Project object */;
+}
